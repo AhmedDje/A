@@ -6765,18 +6765,18 @@ h5.preloader-text::after {
 .faq-content-items form .form-clt textarea {
   padding-bottom: 100px;
 }
-.faq-content-items form .form-clt .budget-item {
+.faq-content-items form .form-clt .About-item {
   display: flex;
   align-items: center;
   gap: 30px;
 }
 @media (max-width: 1399px) {
-  .faq-content-items form .form-clt .budget-item {
+  .faq-content-items form .form-clt .About-item {
     flex-wrap: wrap;
     gap: 15px;
   }
 }
-.faq-content-items form .form-clt .budget-item h4 {
+.faq-content-items form .form-clt .About-item h4 {
   color: var(--white);
   font-size: 16px;
   font-weight: 500;
@@ -6784,17 +6784,17 @@ h5.preloader-text::after {
   letter-spacing: 0.5px;
   text-transform: uppercase;
 }
-.faq-content-items form .form-clt .budget-item .budget-button {
+.faq-content-items form .form-clt .About-item .About-button {
   display: flex;
   align-items: center;
   gap: 8px;
 }
 @media (max-width: 1399px) {
-  .faq-content-items form .form-clt .budget-item .budget-button {
+  .faq-content-items form .form-clt .About-item .About-button {
     flex-wrap: wrap;
   }
 }
-.faq-content-items form .form-clt .budget-item .budget-button .budget-btn {
+.faq-content-items form .form-clt .About-item .About-button .About-btn {
   display: inline-block;
   border-radius: 100px;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -6808,11 +6808,11 @@ h5.preloader-text::after {
   line-height: 1;
   transition: all 0.4s ease-in-out;
 }
-.faq-content-items form .form-clt .budget-item .budget-button .budget-btn:hover {
+.faq-content-items form .form-clt .About-item .About-button .About-btn:hover {
   background-color: var(--theme);
   color: var(--black);
 }
-.faq-content-items form .form-clt .budget-item .budget-button .budget-btn.active {
+.faq-content-items form .form-clt .About-item .About-button .About-btn.active {
   background-color: var(--theme);
   color: var(--black);
 }
@@ -11598,18 +11598,18 @@ h5.preloader-text::after {
 .contact-section-3 .form-clt textarea {
   padding-bottom: 100px;
 }
-.contact-section-3 .form-clt .budget-item {
+.contact-section-3 .form-clt .About-item {
   display: flex;
   align-items: center;
   gap: 30px;
 }
 @media (max-width: 1199px) {
-  .contact-section-3 .form-clt .budget-item {
+  .contact-section-3 .form-clt .About-item {
     flex-wrap: wrap;
     gap: 15px;
   }
 }
-.contact-section-3 .form-clt .budget-item h4 {
+.contact-section-3 .form-clt .About-item h4 {
   color: var(--white);
   font-size: 16px;
   font-weight: 500;
@@ -11617,17 +11617,17 @@ h5.preloader-text::after {
   letter-spacing: 0.5px;
   text-transform: uppercase;
 }
-.contact-section-3 .form-clt .budget-item .budget-button {
+.contact-section-3 .form-clt .About-item .About-button {
   display: flex;
   align-items: center;
   gap: 8px;
 }
 @media (max-width: 1199px) {
-  .contact-section-3 .form-clt .budget-item .budget-button {
+  .contact-section-3 .form-clt .About-item .About-button {
     flex-wrap: wrap;
   }
 }
-.contact-section-3 .form-clt .budget-item .budget-button .budget-btn {
+.contact-section-3 .form-clt .About-item .About-button .About-btn {
   display: inline-block;
   border-radius: 100px;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -11641,11 +11641,11 @@ h5.preloader-text::after {
   line-height: 1;
   transition: all 0.4s ease-in-out;
 }
-.contact-section-3 .form-clt .budget-item .budget-button .budget-btn:hover {
+.contact-section-3 .form-clt .About-item .About-button .About-btn:hover {
   background-color: var(--theme);
   color: var(--black);
 }
-.contact-section-3 .form-clt .budget-item .budget-button .budget-btn.active {
+.contact-section-3 .form-clt .About-item .About-button .About-btn.active {
   background-color: var(--theme);
   color: var(--black);
   border-color: var(--theme);
@@ -11756,18 +11756,18 @@ h5.preloader-text::after {
 .contact-inner-page-wrapper form .form-clt textarea {
   padding-bottom: 100px;
 }
-.contact-inner-page-wrapper form .form-clt .budget-item {
+.contact-inner-page-wrapper form .form-clt .About-item {
   display: flex;
   align-items: center;
   gap: 30px;
 }
 @media (max-width: 1399px) {
-  .contact-inner-page-wrapper form .form-clt .budget-item {
+  .contact-inner-page-wrapper form .form-clt .About-item {
     flex-wrap: wrap;
     gap: 15px;
   }
 }
-.contact-inner-page-wrapper form .form-clt .budget-item h4 {
+.contact-inner-page-wrapper form .form-clt .About-item h4 {
   color: var(--white);
   font-size: 16px;
   font-weight: 500;
@@ -11775,17 +11775,17 @@ h5.preloader-text::after {
   letter-spacing: 0.5px;
   text-transform: uppercase;
 }
-.contact-inner-page-wrapper form .form-clt .budget-item .budget-button {
+.contact-inner-page-wrapper form .form-clt .About-item .About-button {
   display: flex;
   align-items: center;
   gap: 8px;
 }
 @media (max-width: 1399px) {
-  .contact-inner-page-wrapper form .form-clt .budget-item .budget-button {
+  .contact-inner-page-wrapper form .form-clt .About-item .About-button {
     flex-wrap: wrap;
   }
 }
-.contact-inner-page-wrapper form .form-clt .budget-item .budget-button .budget-btn {
+.contact-inner-page-wrapper form .form-clt .About-item .About-button .About-btn {
   display: inline-block;
   border-radius: 100px;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -11799,7 +11799,7 @@ h5.preloader-text::after {
   line-height: 1;
   transition: all 0.4s ease-in-out;
 }
-.contact-inner-page-wrapper form .form-clt .budget-item .budget-button .budget-btn:hover {
+.contact-inner-page-wrapper form .form-clt .About-item .About-button .About-btn:hover {
   background-color: var(--theme);
   color: var(--black);
 }
