@@ -1564,11 +1564,11 @@ text_slider.on('slideChangeTransitionStart', function () {
        Button Active Js Start
     ================================ */
 
-    // Check if .budget-button exists on this page
-    if ($('.budget-button').length) {
-        $(".budget-button .budget-btn").on("click", function() {
+    // Check if .About-button exists on this page
+    if ($('.About-button').length) {
+        $(".About-button .About-btn").on("click", function() {
             // Remove active class from all buttons inside this container
-            $(".budget-button .budget-btn").removeClass("active");
+            $(".About-button .About-btn").removeClass("active");
             // Add active class to the clicked button
             $(this).addClass("active");
         });
