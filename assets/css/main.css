@@ -4203,21 +4203,28 @@ h5.preloader-text::after {
     display: none;
   }
 }
-.gt-vertical-portfolio .array-button .array-prev, .gt-vertical-portfolio .array-button .array-next {
-  border-radius: 100px;
-  border: 1.5px solid rgba(255, 255, 255, 0.2);
-  width: 48px;
-  height: 48px;
-  line-height: 48px;
-  text-align: center;
-  border-radius: 50%;
-  color: var(--theme);
-  transition: all 0.4s ease-in-out;
-  cursor: pointer;
+/* يستهدف كلا الحالتين */
+.array-prev,
+.array-next,
+.swiper-button-prev,
+.swiper-button-next {
+    width: 48px !important;
+    height: 48px !important;
+    border: 1.5px solid rgba(255, 255, 255, 0.2) !important;
+    border-radius: 50% !important;
+    background: rgba(0, 0, 0, 0.45) !important;
+    color: var(--theme) !important;
+    font-size: 18px !important;
+    transition: all 0.3s ease !important;
 }
-.gt-vertical-portfolio .array-button .array-prev:hover, .gt-vertical-portfolio .array-button .array-next:hover {
-  background-color: var(--theme);
-  color: #060606;
+
+.array-prev:hover,
+.array-next:hover,
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    background-color: var(--theme) !important;
+    color: #060606 !important;
+    transform: scale(1.1) !important;
 }
 
 .gt-horizontal-portfolio .slider {
