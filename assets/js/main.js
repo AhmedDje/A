@@ -321,9 +321,10 @@
 	        spaceBetween: 30,
 	        speed: 1300,
 	        loop: true,
-			// هذه السطور تجعل الأزرار لا تتعطل أبدًا
-		    allowSlideNext: true,
-		    allowSlidePrev: true,
+	        loopedSlides: 4,              // ← يُحل معظم مشاكل التعطيل مع loop
+	        loopAdditionalSlides: 2,      // ← يزيد الاستقرار
+	        allowSlideNext: true,
+	        allowSlidePrev: true,
 	        slidesPerView: 2,
 	        slidesPerGroup: 1,
 	        autoplay: {
@@ -331,22 +332,14 @@
 	            disableOnInteraction: false,
 	        },
 	        navigation: {
-	            nextEl: ".array-prev",
-	            prevEl: ".array-next",
+	            nextEl: ".array-next",
+	            prevEl: ".array-prev",
 	        },
 	        breakpoints: {
-	            991: {
-	                slidesPerView: 2,
-	            },
-	            767: {
-	                slidesPerView: 1.6,
-	            },
-	            575: {
-	                slidesPerView: 1.1,
-	            },
-	            0: {
-	                slidesPerView: 1.1,
-	            },
+	            991: { slidesPerView: 2 },
+	            767: { slidesPerView: 1.6 },
+	            575: { slidesPerView: 1.1 },
+	            0:   { slidesPerView: 1.1 },
 	        },
 	    });
 	}
