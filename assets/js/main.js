@@ -331,9 +331,6 @@
 	            delay: 2000,
 	            disableOnInteraction: false,
 	        },
-	        navigation: {
-	            nextEl: ".array-next",
-	            prevEl: ".array-prev",
 	        },
 	        breakpoints: {
 	            991: { slidesPerView: 2 },
